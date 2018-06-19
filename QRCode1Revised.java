@@ -13,6 +13,12 @@ import javafx.stage.Stage;
 //*********************************************************************************************************
 
 public class QRCode1Revised extends Application {
+	
+	public static void main(String[] args) {
+		launch(args);
+		
+	}
+	
 	public void start(Stage initialStage) {
 		
 		Rectangle rect1 = new Rectangle(0, 0, 512, 512);
